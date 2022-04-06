@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Competitivo</title>
+</head>
+    <body>
+        <header class="header">
+            <div class="header-container">
+                <img src="./Media/LOGO 2022pngpequeño2.png" alt="logo header" class="header__logo">
+            </div>
+            <div class="header__social">
+                <section class="buttons">
+                    <a href="https://www.facebook.com/ClubDeportivoVikingas/" class="fa fa-facebook"></a>
+                    <a href="https://www.youtube.com/channel/UCHMYzxTLgo-TKzZagsCnfyg" class="fa fa-youtube"></a>
+                    <a href="https://www.instagram.com/clubdeportivovikingas/" class="fa fa-instagram"></a>
+        
+                    
+                </section>
+            </div>
+            <!-- barra de navegacion-->
+                <nav class="nav__bg">
+                    <a href="index.html" class="nav__bg--enlaces">Club</a>
+                    <a href="primerequipo.html" class="nav__bg--enlaces">Competitivo</a>
+                    <a href="segundoequipo.html" class="nav__bg--enlaces">Formativo</a>
+                    <a href="cuerpotecnico.html" class="nav__bg--enlaces">Cuerpo Tecnico</a>
+                    <a href="contacto.html" class="nav__bg--enlaces">Contacto</a>
+                </nav>
+         </header>
+         <main>
+
+            <form class="formulario" action="" method="get" enctype="application/x-www-form-urlencoded">
+    
+                <fieldset class="formulario__fieldset">
+    
+                    <legend class="formulario__legend">Contáctanos completando el formulario</legend>
+    
+                    <div>
+                        <label class="formulario__label" for="nombre">Nombre</label>
+                        <input class="formulario__input" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+                    </div>
+                    
+                    <div>
+                        <label class="formulario__label" for="apellido">Apellido</label>
+                        <input class="formulario__input" type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido">
+                    </div>
+                   
+                    <div>
+                        <label class="formulario__label" for="email">E-mail</label>
+                        <input class="formulario__input" type="email" name="email" id="email" placeholder="Ingresa tu E-mail">
+                    </div>
+                                    
+                    <div>
+                        <label class="formulario__label" for="mensaje">Mensaje</label>
+                        <textarea class="formulario__textarea" name="mensaje" id="mensaje"  rows="10"></textarea>
+                    </div>
+    
+                        <select class="formulario__select" name="sexo" id=""> 
+                            <option class="formulario__option" hidden selected>Selecciona tu sexo</option>
+                            <option class="formulario__option" value="Hombre">Hombre</option>
+                            <option class="formulario__option" value="Mujer">Mujer</option>
+                            <option class="formulario__option" value="Otro">Otro</option>
+                        </select>
+                      </div>
+    
+                    <div>
+                        <label class="formulario__label--condiciones" for="terminos-condiciones">Acepto los terminos y condiciones</label>
+                        <input class="formulario__checkbox" type="checkbox" id="terminos-condiciones">
+                    </div>
+                    <br>
+                
+                    <div class="formulario__campo-boton">
+                        <input class="formulario__boton" type="reset" value="Limpiar formulario">
+                        <input class="formulario__boton" type="submit" value="Enviar formulario">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <footer class="footer">
+            <h1 class="titulofooter">
+                Siguenos en redes sociales
+            </h1>
+            <section class="buttons">
+                <a href="https://www.facebook.com/ClubDeportivoVikingas/" class="fa fa-facebook"></a>
+                <a href="https://www.youtube.com/channel/UCHMYzxTLgo-TKzZagsCnfyg" class="fa fa-youtube"></a>
+                <a href="https://www.instagram.com/clubdeportivovikingas/" class="fa fa-instagram"></a>
+    
+                
+            </section>
+        </footer>
+        </body>
+        </html>
